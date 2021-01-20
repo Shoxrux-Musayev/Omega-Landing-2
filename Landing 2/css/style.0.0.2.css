@@ -1,0 +1,274 @@
+ * {
+ 	margin: 0 auto;
+	padding: 0 auto;
+	list-style-type: none;
+	box-sizing: border-box;
+ }
+
+body {
+	font-family: sans-serif; 
+	justify-content: center;
+	align-items: center;
+}
+
+.umumiy_chegara {
+	width: 1350px;
+	height: 4845px;
+	margin: 0 auto;
+	padding: 0 auto;
+	border: 3px solid blue;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+/*menu*/
+
+.menu{
+	display: flex;
+	padding: 20px;
+	padding-top: 25px;
+/*	justify-content: space-between;
+*//*	font-family: sans-serif;*/
+	position: relative;
+
+}
+
+.logotip{
+	margin-left: -25px;
+	margin-right: 35px;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.menu_ul{
+	display: flex;
+	margin: 0;
+}
+
+.menu_li{
+	margin-left: 10px;
+}
+
+.menu_a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	margin-right: 20px;
+}
+
+.menu_a:hover {
+	color: red;
+}
+
+/*.rasm_uchburchakcha {
+	width: 10px;
+	height: 7px;
+	margin-left: 6px;
+}
+
+.ichki_menu{
+	display: none;
+	width: 213px;
+	height: 180px;	
+	border: 1px solid #CBCBCB;
+	border-top: 4px solid blue;
+	position: absolute;
+	margin-top: 12px;
+	border-radius: 0% 0% 6% 6% / 0% 0% 6% 6% ;
+	background-color: white;
+}
+
+.ichki_menu_li{
+	margin-top: 20px;
+	margin-left: -20px;
+	position: relative;
+}
+
+.ichki_menu_li2{
+	margin-top: 20px;
+	margin-left: -45px;
+	padding-left: 26px;
+	position: relative;
+}
+
+.rasm_uchburchak_ichki{
+	width: 8px;
+	height: 10px;
+	margin-left: 50px;
+}
+
+.ichki_menu_a{
+	border-radius: 1px solid black;
+	text-decoration: none;
+	color: black;
+}
+
+
+.ichki_menu_a:hover {
+	color: blue;
+}
+
+.menu ul li:hover .ichki_menu {
+	display: block;
+}
+
+.ichki_menu2{
+	display: none;
+	width: 213px;
+	height: 180px;	
+	border: 1px solid #CBCBCB;
+	border-top: 4px solid red;
+	position: absolute;
+	margin-top: -22px;
+	margin-left: -234px;
+	border-radius: 0% 0% 6% 6% / 0% 0% 6% 6% ;
+	background-color: white;
+}
+
+.ichki_menu ul .ichki_menu_li2:hover .ichki_menu2 {
+	display: block;
+}*/
+
+.button1{
+	width: 130px;
+	height: 38px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	border: 1px solid #ee5252;
+	background-color: #ee2f2f;
+	color: white;
+	margin-top: -10px;
+	margin-left: 10px;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.button1:hover{
+	background-color: #d34444;
+}
+
+/*MENU*/
+
+/*Bo'lim 1*/
+
+.bulim_1{
+	width: 1350px;
+	height: 790px;
+	background-image: url(../img/bulim_1_rasm.jpg);
+}
+
+.text_1_div{
+	width: 460px;
+	height: 380px;
+	margin: 0;
+	margin-left: 215px;
+	margin-top: 140px;
+}
+
+.katta_text_1{
+	font-size: 45px;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.p_text_1{
+
+	font-size: 17px;
+}
+
+.email_1_div{
+	width: 465px;
+	height: 65px;
+	background-color: white;
+	margin-top: 40px;
+	border-radius: 6px;
+}
+
+.pochta_1_img{
+	width: 25px;
+	height: 20px;
+	margin: 22px 18px;
+}
+
+.email_1{
+	width: 215px;
+	height: 60px;
+	font-size: 18px;
+	border: 1px solid white;
+}
+
+.email_1_button{
+	width: 175px;
+	height: 55px;
+	background-color: #F04037;
+	border: 2px solid #ff7169;
+	color: white;
+	border-radius: 4px;
+	margin-top: 5px;
+}
+
+.email_1_button:hover{
+	background-color: #f34e46;
+}
+
+.bulim_1_yachenka{
+	display: flex;
+}
+
+.img_1_div{
+	width: 600px;
+	height: 600px;
+/*	background-color: gray;*/
+}
+
+.aylana_1_img{
+	width: 280px;
+	height: 280px;
+	margin-left: -80px;
+	margin-top: 20px;
+}
+
+.aylana_1_div{
+	width: 200px;
+	height: 200px;
+	background-color: #5454D4;
+	border-radius: 50%;
+	margin-top: 65px;
+	margin-right: 65px;
+	padding-top: 25px;
+}
+
+.yuqori_sterelka{
+	width: 50px;
+	height: 50px;
+	background-color: #7070F4;
+	border-radius: 50%;
+}
+
+.yuqori_sterelka_img{
+	width: 25px;
+	height: 30px;
+	margin-left: 12px;
+	margin-top: 10px;
+}
+
+.samaradorlik{
+	font-size: 70px;
+	color: white;
+	font-weight: bold;
+	margin-left: -40px;
+	margin-top: 5px;
+}
+
+.Conversion{
+	font-size: 19px;
+	color: white;
+	margin-left: -25px;
+	margin-top: -15px;
+	font-weight: bold;
+}
+
+
+

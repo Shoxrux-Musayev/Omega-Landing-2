@@ -1,0 +1,791 @@
+ * {
+ 	margin: 0 auto;
+	padding: 0 auto;
+	list-style-type: none;
+	box-sizing: border-box;
+ }
+
+body {
+	font-family: sans-serif; 
+	justify-content: center;
+	align-items: center;
+}
+
+.umumiy_chegara {
+	width: 1350px;
+	height: 4845px;
+	margin: 0 auto;
+	padding: 0 auto;
+	border: 3px solid blue;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+/*menu*/
+
+.menu{
+	display: flex;
+	padding: 20px;
+	padding-top: 25px;
+/*	justify-content: space-between;
+*//*	font-family: sans-serif;*/
+	position: relative;
+
+}
+
+.logotip{
+	margin-left: -25px;
+	margin-right: 35px;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.menu_ul{
+	display: flex;
+	margin: 0;
+}
+
+.menu_li{
+	margin-left: 10px;
+}
+
+.menu_a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	margin-right: 20px;
+}
+
+.menu_a:hover {
+	color: red;
+}
+
+/*.rasm_uchburchakcha {
+	width: 10px;
+	height: 7px;
+	margin-left: 6px;
+}
+
+.ichki_menu{
+	display: none;
+	width: 213px;
+	height: 180px;	
+	border: 1px solid #CBCBCB;
+	border-top: 4px solid blue;
+	position: absolute;
+	margin-top: 12px;
+	border-radius: 0% 0% 6% 6% / 0% 0% 6% 6% ;
+	background-color: white;
+}
+
+.ichki_menu_li{
+	margin-top: 20px;
+	margin-left: -20px;
+	position: relative;
+}
+
+.ichki_menu_li2{
+	margin-top: 20px;
+	margin-left: -45px;
+	padding-left: 26px;
+	position: relative;
+}
+
+.rasm_uchburchak_ichki{
+	width: 8px;
+	height: 10px;
+	margin-left: 50px;
+}
+
+.ichki_menu_a{
+	border-radius: 1px solid black;
+	text-decoration: none;
+	color: black;
+}
+
+
+.ichki_menu_a:hover {
+	color: blue;
+}
+
+.menu ul li:hover .ichki_menu {
+	display: block;
+}
+
+.ichki_menu2{
+	display: none;
+	width: 213px;
+	height: 180px;	
+	border: 1px solid #CBCBCB;
+	border-top: 4px solid red;
+	position: absolute;
+	margin-top: -22px;
+	margin-left: -234px;
+	border-radius: 0% 0% 6% 6% / 0% 0% 6% 6% ;
+	background-color: white;
+}
+
+.ichki_menu ul .ichki_menu_li2:hover .ichki_menu2 {
+	display: block;
+}*/
+
+.button1{
+	width: 130px;
+	height: 38px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	border: 1px solid #ee5252;
+	background-color: #ee2f2f;
+	color: white;
+	margin-top: -10px;
+	margin-left: 10px;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.button1:hover{
+	background-color: #d34444;
+}
+
+/*MENU*/
+
+/*Bo'lim 1*/
+
+.bulim_1{
+	width: 1350px;
+	height: 780px;
+	background-image: url(../img/bulim_1_rasm.jpg);
+}
+
+.text_1_div{
+	width: 460px;
+	height: 380px;
+	margin: 0;
+	margin-left: 215px;
+	margin-top: 140px;
+}
+
+.katta_text_1{
+	font-size: 45px;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.p_text_1{
+
+	font-size: 17px;
+}
+
+.email_1_div{
+	width: 465px;
+	height: 65px;
+	background-color: white;
+	margin-top: 40px;
+	border-radius: 6px;
+}
+
+.pochta_1_img{
+	width: 25px;
+	height: 20px;
+	margin: 22px 18px;
+}
+
+.email_1{
+	width: 215px;
+	height: 60px;
+	font-size: 18px;
+	border: 1px solid white;
+}
+
+.email_1_button{
+	width: 175px;
+	height: 55px;
+	background-color: #F04037;
+	border: 2px solid #ff7169;
+	color: white;
+	border-radius: 4px;
+	margin-top: 5px;
+}
+
+.email_1_button:hover{
+	background-color: #f34e46;
+}
+
+.bulim_1_yachenka{
+	display: flex;
+}
+
+.img_1_div{
+	width: 600px;
+	height: 600px;
+/*	background-color: gray;*/
+}
+
+.aylana_1_img{
+	width: 280px;
+	height: 280px;
+	margin-left: -80px;
+	margin-top: 20px;
+}
+
+.aylana_1_div{
+	width: 200px;
+	height: 200px;
+	background-color: #5454D4;
+	border-radius: 50%;
+	margin-top: 65px;
+	margin-right: 65px;
+	padding-top: 25px;
+}
+
+.yuqori_sterelka{
+	width: 50px;
+	height: 50px;
+	background-color: #7070F4;
+	border-radius: 50%;
+}
+
+.yuqori_sterelka_img{
+	width: 25px;
+	height: 30px;
+	margin-left: 12px;
+	margin-top: 10px;
+}
+
+.samaradorlik{
+	font-size: 70px;
+	color: white;
+	font-weight: bold;
+	margin-left: -40px;
+	margin-top: 5px;
+}
+
+.Conversion{
+	font-size: 19px;
+	color: white;
+	margin-left: -25px;
+	margin-top: -15px;
+	font-weight: bold;
+}
+
+/*Bo'lim 1*/
+
+/*Bo'lim 2*/
+.bulim_2{
+	width: 1350px;
+	height: 700px;
+	background-color: #413E65;
+	padding-top: 110px;
+}
+
+.bulim_2_yachenka{
+	width: 1000px;
+	height: 450px;
+	/*background-color: purple;*/
+	display: flex;
+}
+
+.bulim_2_ustunlar{
+	width: 350px;
+	height: 470px;
+/*	background-color: gray;
+*/	margin: 0;
+}
+
+.bulim_2_ustun{
+	width: 350px;
+	height: 140px;
+	background-color: white;
+	margin-bottom: 25px;
+	border-radius: 10px;
+	padding-top: 25px;
+	display: flex;
+}
+
+.bulim_2_ustun:hover{
+	width: 352px;
+	height: 142px;
+	box-shadow: 0px 0px 35px 7px black;
+}
+
+.bulim_2_ustun_img_div1{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background: rgba(240, 64, 55, 0.097195);
+	margin: 0;
+	margin-left: 25px;
+	/*margin-top: 25px;*/
+}
+
+.bulim_2_ustun_img_div2{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background: rgba(84, 84, 212, 0.1);
+	margin: 0;
+	margin-left: 25px;
+	/*margin-top: 25px;*/
+
+}
+
+.bulim_2_ustun_img_div3{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background: rgba(65, 62, 101, 0.1);
+	margin: 0;
+	margin-left: 25px;
+	/*margin-top: 25px;*/
+}
+
+.bulim_2_ustun_img{
+	width: 30px;
+	height: 30px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.bulim_2_ustun_text_div{
+	width: 240px;
+}
+
+.bulim_2_ustun_text_katta{
+	font-weight: bold;
+	margin-left: 22px;
+	margin-bottom: 25px;
+}
+
+.bulim_2_ustun_text_mayda{
+	font-size: 13px;
+	margin-top: -10px;
+	margin-left: 22px;
+}
+
+
+.bulim_2_text_1_div{
+	width: 460px;
+	height: 380px;
+	margin: 0;
+	margin-left: 150px;
+	margin-top: 60px;
+}
+
+.bulim_2_katta_text_1{
+	font-size: 45px;
+	font-weight: bold;
+	margin-bottom: 40px;
+	color: white;
+}
+
+.bulim_2_p_text_1{
+	color: rgba(255, 255, 255, 0.702469);
+	font-size: 17px;
+}
+.email_1_button{
+	width: 175px;
+	height: 55px;
+	background-color: #F04037;
+	border: 2px solid #ff7169;
+	color: white;
+	border-radius: 4px;
+	margin-top: 5px;
+}
+/*Bo'lim 2*/
+
+/*Bo'lim 3*/
+.bulim_3{
+	width: 1350px;
+	height: 640px;
+}
+
+.bulim_3_yachenka{
+	display: flex;
+}
+
+.bulim_3_text_1_div{
+	width: 675px;
+	height: 680px;
+	margin: 0;
+}
+
+
+.bulim_3_text_1_div{
+	width: 445px;
+	height: 380px;
+	margin: 0;
+	margin-left: 200px;
+	margin-right: 70px;
+	margin-top: 140px;
+}
+
+.bulim_3_katta_text_1{
+	font-size: 45px;
+	font-weight: bold;
+	margin-bottom: 40px;
+	color: black;
+}
+
+.bulim_3_p_text_1{
+	color: #696871;
+	font-size: 17px;
+}
+.email_1_button{
+	width: 175px;
+	height: 55px;
+	background-color: #F04037;
+	border: 2px solid #ff7169;
+	color: white;
+	border-radius: 4px;
+	margin-top: 5px;
+}
+
+.bulim_3_img_div{
+	width: 675px;
+	height: 640px;
+	background-image: url(../img/BG.jpg);
+}
+
+.aylana_2_img{
+	width: 280px;
+	height: 280px;
+	margin-left: -140px;
+	margin-top: 400px;
+}
+
+/*Bo'lim 3*/
+
+/*Bo'lim 4*/
+.bulim_4{
+	width: 1350px;
+	height: 640px;
+	background: #F7F7FB;
+}
+
+.bulim_4_katta_text{
+	width: 400px;
+	font-size: 47px;
+	font-weight: bold;
+	color: black;
+	padding-top: 80px;
+	text-align: center;
+}
+
+.bulim_4_yachenka{
+	width: 1000px;
+	height: 70px;
+/*	background-color: gray;*/
+	margin-top: 40px;
+	display: flex;
+}
+
+.bulim_4_yachenka_2{
+	width: 680px;
+	height: 70px;
+/*	background-color: gray;*/
+	margin-top: 40px;
+	display: flex;
+}
+
+.bulim_4_yachenka_katak{
+	width: 300px;
+	height: 70px;
+	background-color: #fff;
+	border-radius: 7px;
+	display: flex;
+}
+
+.bulim_4_yachenka_katak:hover{
+	width: 303px;
+	height: 73px;
+	box-shadow: 0px 0px 25px 7px #cccccc;
+}
+
+.bulim_4_yachenka_katak_img_div{
+	width: 45px;
+	height: 45px;
+	background-color: red;
+	border-radius: 50%;
+	margin: 0;
+	margin-left: 12px;
+	margin-top: 12px;
+}
+
+#bulim_4_katak_img_div_1{
+	background: rgba(240, 64, 55, 0.097195);
+}
+
+
+#bulim_4_katak_img_div_2{
+	background: rgba(84, 84, 212, 0.1)
+}
+
+
+#bulim_4_katak_img_div_3{
+	background: rgba(254, 220, 90, 0.1);
+}
+
+#bulim_4_katak_img_div_4{
+	background: rgba(119, 191, 65, 0.1);
+}
+
+.bulim_4_img_1{
+	width: 20px;
+	height: 20px;
+	margin-left: 13px;
+	margin-top: 13px;
+}
+
+.bulim_4_img_2{
+	width: 20px;
+	height: 22px;
+	margin-left: 13px;
+	margin-top: 12px;
+}
+
+.bulim_4_img_3{
+	width: 17px;
+	height: 23px;
+	margin-left: 14px;
+	margin-top: 13px;
+}
+
+.bulim_4_img_4{
+	width: 25px;
+	height: 20px;
+	margin-left: 10px;
+	margin-top: 13px;
+}
+
+.bulim_4_img_5{
+	width: 20px;
+	height: 20px;
+	margin-left: 13px;
+	margin-top: 13px;
+}
+
+.bulim_4_img_6{
+	width: 22px;
+	height: 20px;
+	margin-left: 12px;
+	margin-top: 13px;
+}
+
+.bulim_4_img_7{
+	width: 25px;
+	height: 15px;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+.bulim_4_img_8{
+	width: 18px;
+	height: 22px;
+	margin-left: 13px;
+	margin-top: 13px;
+}
+
+.bulim_4_yachenka_katak_text{
+	font-size: 17px;
+	font-weight: bold;
+	margin: 0;
+	margin-top: 25px;
+	margin-left: 15px;
+}
+/*Bo'lim 4*/
+
+/*Bo'lim 5*/
+.bulim_5{
+	width: 1350px;
+	height: 640px;
+}
+
+.bulim_5_yachenka{
+	display: flex;
+}
+
+.bulim_5_text_1_div{
+	width: 440px;
+	height: 380px;
+	margin: 0;
+	margin-left: 200px;
+	margin-right: 70px;
+	margin-top: 140px;
+}
+
+.bulim_5_img_div{
+	width: 400px;
+	height: 550px;
+	margin-top: 70px;
+	margin-left: 30px;
+	background-image: url(../img/BG1.jpg);
+}
+
+.aylana_3_img{
+	width: 280px;
+	height: 280px;
+	margin-left: -75px;
+	margin-top: 260px;
+}
+/*Bo'lim 5*/
+
+/*Bo'lim 6*/
+.bulim_6{
+	width: 1350px;
+	height: 640px;
+	background: #F7F7FB;
+}
+
+.bulim_6_text_div{
+	width: 440px;
+	height: 260px;
+	text-align: center;
+}
+
+.bulim_6_katta_text{
+	font-size: 50px;
+	font-weight: bold;
+	padding-top: 75px;
+	margin-bottom: 30px;
+}
+
+.bulim_6_mayda_text{
+	margin-top: -10px;
+	color: #696871;
+}
+
+.bulim_6_yachenka{
+	width: 920px;
+	height: 240px;
+	display: flex;
+}
+
+.bulim_6_yachenka_katak{
+	width: 420px;
+	height: 230px;
+	border-radius: 10px;
+	background-color: white;
+	padding: 25px;
+}
+
+.bulim_6_yachenka_katak_text{
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.bulim_6_yachenka_katak_img_div{
+	width: 230px;
+	height: 45px;
+	margin: 0;
+	margin-top: 30px;
+	display: flex;
+}
+
+.bulim_6_yachenka_katak_img{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	margin: 0;
+}
+
+.bulim_6_yachenka_katak_pastki_div_katta_text{
+	font-weight: bold;
+}
+
+.bulim_6_yachenka_katak_pastki_div_mayda_text{
+	margin-top: -10px;
+	color: #696871;
+}
+
+.bulim_6_bulimlar{
+	width: 180px;
+	height: 30px;
+	margin-top: 30px;
+	margin-left: 560px;
+	display: flex;
+}
+
+#bulim_6_bulimcha1{
+	width: 70px;
+	background-color: #5454D4;
+}
+
+.bulim_6_bulimcha{
+	width: 25px;
+	height: 13px;
+	background-color: #EAE9F2;
+	border-radius: 8px;
+}
+/*Bo'lim 6*/
+
+/*Bo'lim 7*/
+.bulim_7{
+	width: 1350px;
+	height: 670px;
+	background-color: #413E65;
+}
+
+.bulim_7_yachenka{
+	display: flex;
+}
+
+.bulim_7_img_div{
+	width: 350px;
+	height: 500px;
+	margin-top: 90px;
+	margin-left: 200px;
+	background-image: url(../img/BG2.jpg);
+	border-radius: 10px;
+}
+
+.aylana_3_img{
+	width: 280px;
+	height: 280px;
+	margin-left: 190px;
+	margin-top: 85px;
+}
+
+.bulim_7_text_1_div{
+	width: 440px;
+	height: 380px;
+	margin: 0;
+	margin-right:  200px;
+	/*margin-right: 70px;*/
+	margin-top: 160px;
+}
+
+#bulim_7_katta_text_1{
+	color: white;
+}
+
+#bulim_7_p_text_1{
+	color: rgba(255, 255, 255, 0.7);
+
+}
+
+#email_1_div_2{
+	width: 380px;
+	margin: 0;
+	margin-top: 30px;
+}
+
+#email_2{
+	width: 312px;
+	margin-top: 2px;
+	padding-left: 70px;
+	font-size: 17px; 
+
+}
+
+#email_1_button_2{
+	width: 380px;
+	margin-top: 20px;
+	font-size: 19px;
+}
+/*Bo'lim 7*/
+
+
+
+

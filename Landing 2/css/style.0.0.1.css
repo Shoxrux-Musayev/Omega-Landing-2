@@ -1,0 +1,155 @@
+ * {
+ 	margin: 0 auto;
+	padding: 0 auto;
+	list-style-type: none;
+	box-sizing: border-box;
+ }
+
+body {
+	font-family: sans-serif; 
+	justify-content: center;
+	align-items: center;
+}
+
+.umumiy_chegara {
+	width: 1350px;
+	height: 4845px;
+	margin: 0 auto;
+	padding: 0 auto;
+	border: 3px solid blue;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+/*menu*/
+
+.menu{
+	display: flex;
+	padding: 20px;
+	padding-top: 25px;
+/*	justify-content: space-between;
+*//*	font-family: sans-serif;*/
+	position: relative;
+
+}
+
+.logotip{
+	margin-left: -25px;
+	margin-right: 35px;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.menu_ul{
+	display: flex;
+	margin: 0;
+}
+
+.menu_li{
+	margin-left: 10px;
+}
+
+.menu_a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	margin-right: 20px;
+	padding-bottom: 15px;
+}
+
+.menu_a:hover {
+	color: red;
+}
+
+/*.rasm_uchburchakcha {
+	width: 10px;
+	height: 7px;
+	margin-left: 6px;
+}
+
+.ichki_menu{
+	display: none;
+	width: 213px;
+	height: 180px;	
+	border: 1px solid #CBCBCB;
+	border-top: 4px solid blue;
+	position: absolute;
+	margin-top: 12px;
+	border-radius: 0% 0% 6% 6% / 0% 0% 6% 6% ;
+	background-color: white;
+}
+
+.ichki_menu_li{
+	margin-top: 20px;
+	margin-left: -20px;
+	position: relative;
+}
+
+.ichki_menu_li2{
+	margin-top: 20px;
+	margin-left: -45px;
+	padding-left: 26px;
+	position: relative;
+}
+
+.rasm_uchburchak_ichki{
+	width: 8px;
+	height: 10px;
+	margin-left: 50px;
+}
+
+.ichki_menu_a{
+	border-radius: 1px solid black;
+	text-decoration: none;
+	color: black;
+}
+
+
+.ichki_menu_a:hover {
+	color: blue;
+}
+
+.menu ul li:hover .ichki_menu {
+	display: block;
+}
+
+.ichki_menu2{
+	display: none;
+	width: 213px;
+	height: 180px;	
+	border: 1px solid #CBCBCB;
+	border-top: 4px solid red;
+	position: absolute;
+	margin-top: -22px;
+	margin-left: -234px;
+	border-radius: 0% 0% 6% 6% / 0% 0% 6% 6% ;
+	background-color: white;
+}
+
+.ichki_menu ul .ichki_menu_li2:hover .ichki_menu2 {
+	display: block;
+}*/
+
+.button1{
+	width: 130px;
+	height: 38px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	border: 1px solid #ee5252;
+	background-color: #ee2f2f;
+	color: white;
+	margin-top: -10px;
+	margin-left: 10px;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.button1:hover{
+	background-color: #d34444;
+}
+
+/*MENU*/
+
+
